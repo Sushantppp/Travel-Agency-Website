@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Agency - Packages</title>
+  <link rel="stylesheet" href="../css/packages.css">
+</head>
+<body>
+  <nav>
+    <!-- Add navigation links here -->
+  </nav>
+
+  <header>
+    <!-- Add header content here -->
+  </header>
+
+  <main>
+    <h1>Travel Packages</h1>
+    <section id="search">
+      <input type="text" id="search-input" placeholder="Search packages...">
+    </section>
+    <section id="packages">
+      <!-- Add package cards here -->
+      <div class="package-card">
+        <h2>Maldives</h2>
+        <p>Book your Maldives tour now and unlock a world of unparalleled beauty, luxury, and adventure. Your dream getaway awaits!</p>
+        <!-- Add more details or elements as needed -->
+      </div>
+      <div class="package-card">
+        <h2>Singapore</h2>
+        <p>Book your Singapore tour now, and immerse yourself in a world where culture, adventure, and modernity intertwine in the most captivating way. Your Singaporean adventure awaits!</p>
+        <!-- Add more details or elements as needed -->
+      </div>
+      <div class="package-card">
+        <h2>Vietnam</h2>
+        <p>Book your Vietnam tour now and let the adventure begin. Your Vietnamese odyssey awaits!</p>
+        <!-- Add more details or elements as needed -->
+      </div>
+      
+      <!-- Set up Booking form -->
+      <br>
+      <form id="booking-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <br>
+        <label for="phone">Phone No:</label>
+        <input type="number" id="phone" required>
+        <br>
+        <label for="package">Select a Package:</label>
+        <select id="package" required>
+          <option value="Maldives">Maldives</option>
+          <option value="Singapore">Singapore</option>
+          <option value="Vietnam">Vietnam</option>
+          <!-- Add options for package selection -->
+        </select>
+    
+        <button type="submit">Book Now</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2023 Epic Explorations. All rights reserved.</p>
+    <!-- Add footer content here -->
+  </footer>
+  <script src="../js/script.js"></script>
+</body>
+</html>
